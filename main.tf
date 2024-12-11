@@ -1,5 +1,6 @@
 # Provider Block
 provider "azurerm" {
+  subscription_id = "1fff7f85-48df-482f-a392-f61dcb0044a9"
  features {}          
 }
 
@@ -8,7 +9,7 @@ resource "random_string" "myrandom" {
   length = 6
   upper = false 
   special = false
-  number = false   
+  numeric = false   
 }
 
 # Create Resource Group
